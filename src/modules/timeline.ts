@@ -1,7 +1,5 @@
 import type { Moment } from "../config";
 
-const formatDate = new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" });
-
 export function mountTimeline(container: HTMLElement, moments: Moment[]): void {
   container.innerHTML = [...moments]
     .sort((a, b) => a.date.localeCompare(b.date))
