@@ -29,7 +29,7 @@ export const couple: Couple = {
     {
       date: "Setembro de 2024",
       title: "O primeiro encontro",
-      text: "Nunca imaginei que nosso primeiro encontro seria da forma que foi kkkkk, mas adorei cada segundo te conhecendo e já queria mais!",
+      text: "Nunca imaginei que nosso primeiro encontro seria da forma que foi kkkkk, mas adorei cada segundo te conhecendo e já queria mais. No mesmo dia já soube que era contigo que eu queria ficar.",
     },
     {
       date: "Decorrer de 2025",
