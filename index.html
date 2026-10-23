@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1e0a14" />
+    <meta name="description" content="Um pequeno site para guardar a nossa história." />
+    <title>Nossa história</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300;1,500&family=Figtree:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="hero__names" id="names"></h1>
+      <p class="hero__since" id="since"></p>
+      <div class="counter" id="counter" role="timer" aria-label="Tempo juntos"></div>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="timeline-title">
+        <h2 class="section__title" id="timeline-title">Os nossos momentos</h2>
+        <ol class="timeline" id="timeline"></ol>
+      </section>
+
+      <section class="section section--letter" aria-labelledby="letter-title">
+        <h2 class="visually-hidden" id="letter-title">Carta</h2>
+        <details class="letter" id="letter"></details>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer"></footer>
+    <noscript>Este site precisa de JavaScript para exibir a nossa história.</noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
